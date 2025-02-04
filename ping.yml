@@ -1,6 +1,6 @@
 ---
 - name: check remote server connectivity
-  hosts: servers
+  hosts: webservers
   tasks:
   - name: check connectivity
     ping:
